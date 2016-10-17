@@ -1,0 +1,141 @@
+/* line 1, ../sass/main.scss */
+* {
+  outline: none;
+}
+
+/* line 5, ../sass/main.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 9, ../sass/main.scss */
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: black;
+}
+/* line 15, ../sass/main.scss */
+body .clear {
+  clear: both;
+}
+/* line 19, ../sass/main.scss */
+body .wrap {
+  margin: 0 auto;
+  width: 1140px;
+  padding: 0 15px;
+  position: relative;
+}
+/* line 26, ../sass/main.scss */
+body #head {
+  z-index: 1000000000;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  height: 134px;
+  width: 100%;
+}
+/* line 35, ../sass/main.scss */
+body #search {
+  padding-top: 134px;
+  padding-bottom: 40px;
+}
+/* line 40, ../sass/main.scss */
+body #search .wrap input[type="text"] {
+  float: left;
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* line 46, ../sass/main.scss */
+body #search .wrap button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* line 55, ../sass/main.scss */
+body #foot {
+  z-index: 10000000;
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+}
+/* line 68, ../sass/main.scss */
+body #gifs {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+/* line 73, ../sass/main.scss */
+body #gifs .gif_wrap {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+  float: left;
+}
+/* line 80, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block {
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  color: black;
+}
+/* line 88, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block img {
+  max-width: 100%;
+}
+/* line 92, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  transform: translateY(-100%);
+}
+/* line 101, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar .like_div {
+  padding-left: 10px;
+  float: left;
+}
+/* line 105, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar .like_div span {
+  padding-right: 5px;
+}
+/* line 110, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar .dislike_div {
+  padding-right: 10px;
+  float: right;
+}
+/* line 114, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar .dislike_div span {
+  padding-left: 5px;
+}
+/* line 119, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar button {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+/* line 124, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar button:hover {
+  cursor: pointer;
+  color: blue;
+}
+/* line 130, ../sass/main.scss */
+body #gifs .gif_wrap .gif_block .bottom_image_bar .name_div {
+  display: none;
+}
+/* line 138, ../sass/main.scss */
+body #search_result, body #ajax_result {
+  display: none;
+}

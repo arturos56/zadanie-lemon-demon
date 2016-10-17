@@ -1,0 +1,905 @@
+@media only screen and (max-width: 1140px) {
+  /* line 7, ../sass/mobile.scss */
+  body .wrap {
+    width: 960px;
+  }
+  /* line 11, ../sass/mobile.scss */
+  body #people_slider .overlay div.wrap_slider_4 {
+    width: 960px;
+  }
+  /* line 16, ../sass/mobile.scss */
+  body #rooms_and_rates .overlay .slides div.wrap_slider_2 {
+    width: 960px;
+  }
+  /* line 21, ../sass/mobile.scss */
+  body #about_us .wrap .col_50.right_text, body .left_text {
+    padding-top: 20px;
+  }
+  /* line 28, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column, body #details_content .wrap .right_detail_column {
+    width: 100%;
+  }
+  /* line 31, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column {
+    border-left: none;
+    padding: 30px 0;
+  }
+  /* line 36, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column ul {
+    width: 100%;
+  }
+  /* line 39, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column ul span {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 20px;
+    float: left;
+  }
+  /* line 46, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column ul span::before {
+    display: none;
+  }
+  /* line 49, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column ul span .li_button {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 60, ../sass/mobile.scss */
+  body #news .wrap .event .col_50 {
+    height: 185px;
+  }
+  /* line 63, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.left_col div.beach_overlay {
+    padding-top: 15px;
+  }
+  /* line 66, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.left_col div.beach_overlay .overlay_text {
+    font-size: 20px;
+  }
+  /* line 71, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.right_col div.beach_overlay {
+    padding-top: 50px;
+  }
+  /* line 74, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.right_col div.beach_overlay .overlay_text {
+    font-size: 20px;
+  }
+  /* line 80, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal {
+    height: 294px;
+  }
+  /* line 84, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal .slides div.wrap_slider_5 ul.slick-dots {
+    right: -190px;
+  }
+  /* line 91, ../sass/mobile.scss */
+  body #about .wrap .col_50.special_col {
+    width: 100%;
+  }
+  /* line 94, ../sass/mobile.scss */
+  body #about .wrap .col_50.special_col.right_col {
+    display: none;
+  }
+  /* line 98, ../sass/mobile.scss */
+  body #about .wrap .col_50.special_col .wrap_slider_3 .content .col_50 {
+    width: 50%;
+  }
+  /* line 105, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special {
+    width: 960px;
+    height: 164px;
+  }
+  /* line 109, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_33 {
+    float: none;
+    margin: 0 auto;
+    height: 82px;
+    width: 314px;
+    background-color: transparent;
+  }
+  /* line 117, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_33 .special_span span {
+    padding-right: 55px;
+  }
+  /* line 123, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_33 .special_span::after {
+    display: none;
+  }
+  /* line 129, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 {
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 82px;
+  }
+  /* line 135, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .sign_up_form {
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    padding: 0 20px 0 0;
+  }
+  /* line 141, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .sign_up_form form {
+    float: right;
+  }
+  /* line 146, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .social {
+    margin-left: 0;
+    width: 40%;
+  }
+  /* line 153, ../sass/mobile.scss */
+  body #foot .bottom_panel .bg_block_left {
+    display: none;
+  }
+  /* line 157, ../sass/mobile.scss */
+  body #foot .bottom_panel .bg_block_right {
+    clear: both;
+    width: 100%;
+    height: 164px;
+  }
+  /* line 166, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel .bg_block_left {
+    display: none;
+  }
+  /* line 170, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel .bg_block_right {
+    width: 100%;
+    clear: both;
+    height: 144px;
+  }
+  /* line 176, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special {
+    width: 960px;
+    height: 124px;
+  }
+  /* line 180, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_33 {
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    float: none;
+    clear: both;
+    height: 50%;
+  }
+  /* line 188, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_33 .special_span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 305px;
+  }
+  /* line 196, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_33 .special_span span p .display_class {
+    display: none;
+  }
+  /* line 201, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_33 .special_span::after {
+    display: none;
+  }
+  /* line 206, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_66 {
+    float: none;
+    width: 740px;
+    clear: both;
+    height: 50%;
+    margin: 0 auto;
+  }
+  /* line 213, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special .col_66 #special_arrival_date_button {
+    margin-left: 0;
+  }
+  /* line 220, ../sass/mobile.scss */
+  body .top_section .overlay #slider {
+    height: 644px;
+  }
+  /* line 224, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider {
+    width: 960px;
+  }
+  /* line 227, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider h6 {
+    width: 280px;
+    font-size: 35px;
+  }
+  /* line 232, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider h2 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /* line 241, ../sass/mobile.scss */
+  body .nav_panel {
+    display: none;
+  }
+  /* line 245, ../sass/mobile.scss */
+  body .small_nav_panel {
+    display: block;
+  }
+  /* line 248, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu {
+    width: 300px;
+    margin: 0 auto;
+  }
+  /* line 252, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .logo_small {
+    padding-right: 10px;
+    float: left;
+  }
+  /* line 257, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu {
+    float: left;
+    position: relative;
+    padding-left: 10px;
+  }
+  /* line 262, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small {
+    position: absolute;
+    display: none;
+    top: 75px;
+    left: -47px;
+  }
+  /* line 268, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small.active {
+    display: block;
+  }
+  /* line 272, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol {
+    list-style-type: none;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    background-color: #f1f1f1;
+  }
+  /* line 282, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol span {
+    display: none;
+  }
+  /* line 284, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol span .special_li_small_nav {
+    padding: 10px;
+  }
+  /* line 290, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol li {
+    text-align: center;
+    background-color: #8a8a8a;
+    border-bottom: 1px solid #e1bc85;
+  }
+  /* line 295, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol li:hover {
+    background-color: #e1bc85;
+    cursor: pointer;
+  }
+  /* line 301, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol li a {
+    padding: 10px;
+    display: block;
+    color: white;
+  }
+  /* line 307, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol li:first-child {
+    border-top: 1px solid #e1bc85;
+  }
+  /* line 314, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu > i.fa {
+    font-size: 50px;
+    line-height: 82px;
+    vertical-align: middle;
+    color: #e1bc85;
+  }
+  /* line 320, ../sass/mobile.scss */
+  body .small_nav_panel .logo_and_menu .wrap_small_menu > i.fa:hover {
+    cursor: pointer;
+  }
+  /* line 328, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special {
+    width: 768px;
+  }
+  /* line 332, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider {
+    width: 768px;
+  }
+  /* line 336, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special {
+    width: 768px;
+  }
+  /* line 340, ../sass/mobile.scss */
+  body .wrap {
+    width: 768px;
+  }
+  /* line 344, ../sass/mobile.scss */
+  body #people_slider .overlay div.wrap_slider_4 {
+    width: 768px;
+  }
+  /* line 348, ../sass/mobile.scss */
+  body #rooms_and_rates .overlay .slides div.wrap_slider_2 {
+    width: 768px;
+  }
+  /* line 354, ../sass/mobile.scss */
+  body #gallery_content .wrap .images_wrap .image_block {
+    width: 33.333%;
+  }
+  /* line 360, ../sass/mobile.scss */
+  body #team_members .wrap .member {
+    width: 50%;
+  }
+  /* line 365, ../sass/mobile.scss */
+  body #about_us .wrap .col_50 {
+    display: none;
+  }
+  /* line 368, ../sass/mobile.scss */
+  body #about_us .wrap .col_50.right_text {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  /* line 373, ../sass/mobile.scss */
+  body #about_us .wrap .col_50.left_text {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  /* line 385, ../sass/mobile.scss */
+  body #select_room .wrap .room {
+    width: 40%;
+  }
+  /* line 388, ../sass/mobile.scss */
+  body #select_room .wrap .room_description {
+    width: 60%;
+  }
+  /* line 392, ../sass/mobile.scss */
+  body #select_room .wrap .room_description .wrap_room h4 {
+    text-align: center;
+  }
+  /* line 395, ../sass/mobile.scss */
+  body #select_room .wrap .room_description .wrap_room .room_image {
+    width: 100%;
+  }
+  /* line 397, ../sass/mobile.scss */
+  body #select_room .wrap .room_description .wrap_room .room_image img {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 402, ../sass/mobile.scss */
+  body #select_room .wrap .room_description .wrap_room .room_text {
+    width: 100%;
+    margin-top: 30px;
+  }
+  /* line 411, ../sass/mobile.scss */
+  body #another_accommodations .wrap .accommodation_block {
+    width: 50%;
+  }
+  /* line 418, ../sass/mobile.scss */
+  body #room_details .wrap .slides {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 422, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 427, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .top_book_room, body #room_details .wrap .book_room_column .bottom_book_room {
+    float: left;
+  }
+  /* line 431, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .top_book_room {
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+    border-right: 1px solid lightgray;
+    height: inherit;
+  }
+  /* line 438, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room {
+    box-sizing: border-box;
+    width: 70%;
+  }
+  /* line 444, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+  }
+  /* line 449, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms input[type="submit"] {
+    margin: 0;
+  }
+  /* line 453, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms .block_select {
+    float: left;
+    margin-right: 10px;
+  }
+  /* line 457, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms .block_select #last_select {
+    margin-bottom: 10px;
+  }
+  /* line 461, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms .block_select .select_icon {
+    margin-bottom: 10px;
+  }
+  /* line 477, ../sass/mobile.scss */
+  body #about .wrap .col_50 .special_heading {
+    margin-bottom: 15px;
+  }
+  /* line 482, ../sass/mobile.scss */
+  body #about .wrap .col_50 span p {
+    padding-bottom: 15px;
+  }
+  /* line 488, ../sass/mobile.scss */
+  body #gallery .images .col_16 {
+    width: 25%;
+  }
+  /* line 492, ../sass/mobile.scss */
+  body #foot .info .wrap .logo_contact .info_logo {
+    display: none;
+  }
+  /* line 497, ../sass/mobile.scss */
+  body #news .wrap .left_col, body #news .wrap .right_col {
+    padding: 0;
+  }
+  /* line 501, ../sass/mobile.scss */
+  body #news .wrap .event {
+    width: 100%;
+  }
+  /* line 504, ../sass/mobile.scss */
+  body #news .wrap .event .special_heading {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 509, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal {
+    width: 70%;
+    float: left;
+    height: 385px;
+  }
+  /* line 514, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal .slides .wrap_slider_5 .content img {
+    height: 385px;
+  }
+  /* line 519, ../sass/mobile.scss */
+  body #news .wrap .event .col_50 {
+    width: 30%;
+  }
+  /* line 522, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.left_col {
+    padding: 0 0 0 15px;
+    margin-bottom: 15px;
+  }
+  /* line 526, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.left_col .beach_overlay {
+    left: 32px;
+  }
+  /* line 530, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.right_col {
+    padding: 0 0 0 15px;
+  }
+  /* line 535, ../sass/mobile.scss */
+  body #news .wrap .event h3 {
+    text-align: center;
+  }
+  /* line 540, ../sass/mobile.scss */
+  body #news .wrap .news {
+    width: 100%;
+  }
+  /* line 543, ../sass/mobile.scss */
+  body #news .wrap .news .hold_button {
+    text-align: center;
+  }
+  /* line 547, ../sass/mobile.scss */
+  body #news .wrap .news .special_heading {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* line 553, ../sass/mobile.scss */
+  body #news .wrap .news .news_content {
+    margin: 0 auto;
+  }
+  /* line 556, ../sass/mobile.scss */
+  body #news .wrap .news .news_content .col_50 {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 568, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special {
+    width: 320px;
+  }
+  /* line 572, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider {
+    width: 320px;
+  }
+  /* line 576, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel div.wrap_special {
+    width: 320px;
+  }
+  /* line 580, ../sass/mobile.scss */
+  body .wrap {
+    width: 320px;
+  }
+  /* line 584, ../sass/mobile.scss */
+  body #people_slider .overlay div.wrap_slider_4 {
+    width: 320px;
+  }
+  /* line 588, ../sass/mobile.scss */
+  body #rooms_and_rates .overlay .slides div.wrap_slider_2 {
+    width: 320px;
+  }
+  /* line 593, ../sass/mobile.scss */
+  body #head .wrap .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol span {
+    display: block;
+  }
+  /* line 596, ../sass/mobile.scss */
+  body #head .wrap .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol span li i {
+    margin-left: 5px;
+  }
+  /* line 600, ../sass/mobile.scss */
+  body #head .wrap .small_nav_panel .logo_and_menu .wrap_small_menu .menu_small ol span .special_li_small_nav {
+    padding: 10px;
+  }
+  /* line 605, ../sass/mobile.scss */
+  body #head .wrap .top_panel {
+    display: none !important;
+  }
+  /* line 611, ../sass/mobile.scss */
+  body #about .wrap .col_50.left_col {
+    display: none;
+  }
+  /* line 614, ../sass/mobile.scss */
+  body #about .wrap .col_50.right_col {
+    width: 100%;
+    padding-left: 0;
+  }
+  /* line 619, ../sass/mobile.scss */
+  body #about .wrap .col_50.left_col.special_col {
+    display: block;
+  }
+  /* line 622, ../sass/mobile.scss */
+  body #about .wrap .col_50.left_col.special_col .wrap_slider_3 .content .col_50 {
+    width: 100%;
+  }
+  /* line 629, ../sass/mobile.scss */
+  body #gallery .images .col_16 {
+    width: 50%;
+  }
+  /* line 632, ../sass/mobile.scss */
+  body #gallery .images .col_16 img {
+    width: 100%;
+  }
+  /* line 640, ../sass/mobile.scss */
+  body #foot .info .wrap .logo_contact {
+    width: 100%;
+  }
+  /* line 643, ../sass/mobile.scss */
+  body #foot .info .wrap .logo_contact .info_logo {
+    width: 100%;
+    display: block;
+  }
+  /* line 647, ../sass/mobile.scss */
+  body #foot .info .wrap .logo_contact .info_logo img {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 652, ../sass/mobile.scss */
+  body #foot .info .wrap .logo_contact .info_contact {
+    width: 100%;
+    clear: both;
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+  /* line 660, ../sass/mobile.scss */
+  body #foot .info .wrap .info_links {
+    text-align: center;
+  }
+  /* line 662, ../sass/mobile.scss */
+  body #foot .info .wrap .info_links.page, body #foot .info .wrap .info_links.about, body #foot .info .wrap .info_links.trip {
+    float: left;
+    width: 100%;
+  }
+  /* line 670, ../sass/mobile.scss */
+  body #foot .bottom_panel .bg_block_right {
+    height: 280px;
+  }
+  /* line 676, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .social {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 681, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .social span {
+    height: auto;
+    position: static;
+    display: inline-block;
+    float: none;
+    margin-top: 20px;
+  }
+  /* line 688, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .social span:first-child {
+    margin-left: 0;
+  }
+  /* line 692, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .social span a {
+    top: 0;
+    transform: translateY(0);
+  }
+  /* line 699, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .sign_up_form {
+    width: 100%;
+    text-align: center;
+    line-height: 4;
+    padding: 0;
+  }
+  /* line 705, ../sass/mobile.scss */
+  body #foot .bottom_panel .wrap_special .col_66 .sign_up_form input[type="submit"] {
+    margin-left: 0;
+  }
+  /* line 718, ../sass/mobile.scss */
+  body #news .wrap .news .news_content .col_50 {
+    width: 100%;
+  }
+  /* line 721, ../sass/mobile.scss */
+  body #news .wrap .news .news_content .col_50 img {
+    width: 100%;
+  }
+  /* line 725, ../sass/mobile.scss */
+  body #news .wrap .news .news_content .col_50 .wrap_news {
+    position: static;
+  }
+  /* line 731, ../sass/mobile.scss */
+  body #news .wrap .event {
+    width: 100%;
+  }
+  /* line 735, ../sass/mobile.scss */
+  body #news .wrap .event .col_50 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    clear: both;
+  }
+  /* line 742, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.left_col {
+    padding-left: 0;
+  }
+  /* line 745, ../sass/mobile.scss */
+  body #news .wrap .event .col_50.right_col {
+    padding-left: 0;
+  }
+  /* line 750, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal {
+    width: 100%;
+    height: 250px;
+  }
+  /* line 757, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal .slides div.wrap_slider_5 .content img {
+    height: 250px;
+  }
+  /* line 761, ../sass/mobile.scss */
+  body #news .wrap .event .festiwal .slides div.wrap_slider_5 ul.slick-dots {
+    right: -120px;
+  }
+  /* line 771, ../sass/mobile.scss */
+  body #contact .wrap .col_50 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 777, ../sass/mobile.scss */
+  body #contact .wrap .col_50.right_col_contact .contact_form span {
+    width: 100%;
+  }
+  /* line 780, ../sass/mobile.scss */
+  body #contact .wrap .col_50.right_col_contact .contact_form span.left_input, body #contact .wrap .col_50.right_col_contact .contact_form span.right_input {
+    padding: 0;
+  }
+  /* line 787, ../sass/mobile.scss */
+  body #team_members .wrap .member {
+    width: 100%;
+  }
+  /* line 792, ../sass/mobile.scss */
+  body #statistics .overlay .wrap .counter_stats .counter_item p {
+    font-size: 14px;
+  }
+  /* line 795, ../sass/mobile.scss */
+  body #statistics .overlay .wrap .counter_stats .counter_item .counter {
+    font-size: 35px;
+  }
+  /* line 800, ../sass/mobile.scss */
+  body #gallery_content .wrap .images_wrap .image_block {
+    width: 50%;
+  }
+  /* line 804, ../sass/mobile.scss */
+  body #select_room {
+    padding-top: 0;
+  }
+  /* line 807, ../sass/mobile.scss */
+  body #select_room .wrap .room_description {
+    padding: 20px 0;
+    width: 100%;
+  }
+  /* line 810, ../sass/mobile.scss */
+  body #select_room .wrap .room_description .wrap_room .room_text {
+    padding: 0;
+  }
+  /* line 814, ../sass/mobile.scss */
+  body #select_room .wrap .room {
+    width: 100%;
+  }
+  /* line 822, ../sass/mobile.scss */
+  body #choose .wrap::before {
+    display: none;
+  }
+  /* line 826, ../sass/mobile.scss */
+  body #choose .wrap .choose_guide {
+    width: 100%;
+    text-align: left;
+  }
+  /* line 829, ../sass/mobile.scss */
+  body #choose .wrap .choose_guide span {
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 0;
+  }
+  /* line 841, ../sass/mobile.scss */
+  body #another_accommodations .wrap {
+    border: none;
+  }
+  /* line 844, ../sass/mobile.scss */
+  body #another_accommodations .wrap h5 {
+    padding-top: 0;
+  }
+  /* line 848, ../sass/mobile.scss */
+  body #another_accommodations .wrap .accommodation_block {
+    width: 100%;
+  }
+  /* line 854, ../sass/mobile.scss */
+  body #people_slider {
+    height: 500px;
+  }
+  /* line 859, ../sass/mobile.scss */
+  body #people_slider .overlay .slides .wrap_slider_4 .content {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    padding: 0 50px;
+  }
+  /* line 866, ../sass/mobile.scss */
+  body #people_slider .overlay .slides .wrap_slider_4 .content .picture {
+    width: 80%;
+  }
+  /* line 875, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column {
+    margin: 0;
+  }
+  /* line 879, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table thead {
+    display: none;
+  }
+  /* line 883, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table tr:first-child {
+    border-top: 1px solid #e1bc85;
+  }
+  /* line 886, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table tr {
+    display: block;
+    border-bottom: 1px solid #e1bc85;
+    padding-bottom: 20px;
+  }
+  /* line 894, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table td {
+    padding: 10px 0;
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid lightgray;
+  }
+  /* line 900, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table td .heading_table {
+    font-weight: normal;
+    text-transform: none;
+  }
+  /* line 907, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .rate_table td:before {
+    margin-right: 15px;
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* line 919, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .package_book .col_80 {
+    width: 100%;
+  }
+  /* line 923, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .package_book .col_20 {
+    width: 100%;
+  }
+  /* line 926, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .package_book .col_20 .more_button {
+    float: left;
+  }
+  /* line 930, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .package_book .col_20 .price {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+  /* line 937, ../sass/mobile.scss */
+  body #details_content .wrap .right_detail_column .list_block {
+    width: 100%;
+  }
+  /* line 942, ../sass/mobile.scss */
+  body #details_content .wrap .left_detail_column ul span {
+    width: 50%;
+  }
+  /* line 951, ../sass/mobile.scss */
+  body #rooms_and_rates .overlay .room_head {
+    width: 100%;
+  }
+  /* line 961, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .top_book_room {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+  }
+  /* line 966, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room {
+    width: 100%;
+  }
+  /* line 968, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms {
+    margin: 0 auto;
+  }
+  /* line 970, ../sass/mobile.scss */
+  body #room_details .wrap .book_room_column .bottom_book_room .available_rooms .block_select {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 981, ../sass/mobile.scss */
+  body .top_section .overlay .bottom_panel {
+    display: none;
+  }
+  /* line 985, ../sass/mobile.scss */
+  body .top_section {
+    height: 500px;
+  }
+  /* line 988, ../sass/mobile.scss */
+  body .top_section .overlay #slider {
+    height: 100%;
+    padding-top: 0;
+  }
+  /* line 995, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider .special-next, body .top_section .overlay #slider .slides div.wrap_slider .special-prev {
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-75%);
+  }
+  /* line 1001, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider h6 {
+    width: 170px;
+    font-size: 20px;
+  }
+  /* line 1006, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider h2 {
+    font-size: 50px;
+  }
+  /* line 1011, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider .like_you::before {
+    width: 40px;
+    left: 288px;
+  }
+  /* line 1017, ../sass/mobile.scss */
+  body .top_section .overlay #slider .slides div.wrap_slider .like_you::after {
+    width: 40px;
+    right: 288px;
+  }
+}

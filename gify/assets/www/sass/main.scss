@@ -1,0 +1,141 @@
+* {
+    outline: none;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: black;
+
+    .clear {
+        clear: both;
+    }
+
+    .wrap {
+        margin: 0 auto;
+        width: 1140px;
+        padding: 0 15px;
+        position: relative;
+    }
+
+    #head {
+        z-index: 1000000000;
+        background-color: black;
+        text-align: center;
+        position: fixed;
+        height: 134px;
+        width: 100%;
+    }
+
+    #search {
+        padding-top: 134px;
+        padding-bottom: 40px;
+
+        .wrap {
+            input[type="text"] {
+                float: left;
+                width: 90%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            button {
+                float: left;
+                width: 10%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    #foot {
+        z-index: 10000000;
+        background-color: lightgray;
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        font-weight: bold;
+    }
+
+    #gifs {
+        color: white;
+        text-align: center;
+        font-size: 25px;
+
+        .gif_wrap   {
+            box-sizing: border-box;
+            width: 25%;
+            padding: 10px;
+            float: left;
+       
+
+                .gif_block {
+                
+                box-sizing: border-box;
+                position: relative;
+                text-align: left;
+                font-size: 14px;
+                color: black;
+
+                img {
+                    max-width: 100%;
+                }
+
+                .bottom_image_bar {
+                    background-color: white;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 10;
+                    transform: translateY(-100%);
+
+                    .like_div {
+                        padding-left: 10px;
+                        float: left;
+
+                        span {
+                            padding-right: 5px;
+                        }
+                    }
+
+                    .dislike_div {
+                        padding-right: 10px;
+                        float: right;
+
+                        span {
+                            padding-left: 5px;
+                        }
+                    }
+
+                    button {
+                        background-color: transparent;
+                        color: black;
+                        border: none;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: blue;
+                        }
+                    }
+
+                    .name_div {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    #search_result, #ajax_result {
+        display: none;
+    }
+}
